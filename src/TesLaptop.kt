@@ -4,8 +4,8 @@ fun main() {
     println("2. AlienWare")
     print("Pilih Laptop Mana :")
     val jenis_laptop = readLine()?.toInt()
-    val apple = Laptop.Apple()
-    val alienWare = Laptop.AlienWare()
+    val apple = Apple()
+    val alienWare = AlienWare()
     val laptop = Laptop()
     when (jenis_laptop) {
         1 -> {
